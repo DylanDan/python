@@ -30,7 +30,7 @@ plt.figure(1, figsize=(4,3))
 plt.clf()
 plt.scatter(X.ravel(),y,color='black',zorder=20)
 X_test = np.linspace(-5,10,300)
-print X_test
+print(X_test)
 
 
 def model(x):
