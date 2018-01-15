@@ -10,13 +10,13 @@ data = np.random.random_sample(900)
 
 Mean,std = sta.norm.fit(data)
 
-print Mean , std
+print (Mean , std)
 
-print sta.skewtest(data)
-print sta.kurtosistest(data)
-print sta.normaltest(data)
-print sta.scoreatpercentile(data,50)
-print sta.scoreatpercentile(data,1)
+print (sta.skewtest(data))
+print (sta.kurtosistest(data))
+print (sta.normaltest(data))
+print (sta.scoreatpercentile(data,50))
+print (sta.scoreatpercentile(data,1))
 
 import matplotlib.pyplot as plt
 
