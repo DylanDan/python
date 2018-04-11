@@ -38,3 +38,11 @@ build-test-generated-src/
 loggerConfig-*.prop
 logger-config-*.prop
 loggerConfig*.xml
+colors.scheme.xml
+debugger.xml
+editor.xml
+filetypes.xml
+github_settings.xml
+vcs.xml
+codestyles/
+_windows/
